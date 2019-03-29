@@ -7,7 +7,7 @@ RUN mkdir -p /usr/src/
 WORKDIR /usr/src/
 COPY . /usr/src/
 
-RUN rm -rf node_modules package-lock.json yarn.lock || true
+RUN rm -rf node_modules || true
 RUN yarn install
 
 EXPOSE 8888
