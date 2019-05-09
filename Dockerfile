@@ -8,7 +8,7 @@ WORKDIR /usr/src/
 COPY . /usr/src/
 
 RUN rm -rf node_modules || true
-RUN yarn install --non-interactive
+RUN yarn install --frozen-lockfile --non-interactive
 
 EXPOSE 8888
 
