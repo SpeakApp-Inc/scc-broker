@@ -1,3 +1,9 @@
+# DEPRECATED
+
+See https://github.com/SpeakApp-Inc/conversifi-web/pull/1683
+
+--------------
+
 # scc-broker
 Server for the SC cluster - For horizontal scalability.
 
